@@ -1,0 +1,8 @@
+RewriteEngine on
+
+RewriteRule ^all-missions/$  index.php?git=all_missions [L]
+RewriteRule ^all-missions/([0-9]+)/$ index.php?git=all_missions&sayfa=$1 [L]
+
+RewriteRule ^developers/$  index.php?git=developers [L]
+RewriteRule ^developers/([0-9]+)/$ index.php?git=developers&sayfa=$1 [L]
+
